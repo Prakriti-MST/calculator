@@ -36,8 +36,7 @@ function calculate() {
     console.log("Calculation result:", result);
     if (
       result === undefined ||
-      Number.isNaN(result) ||
-      Number.isFinite(result)
+      Number.isNaN(result) 
     ) {
       console.error("Error: Calculation result is undefined.");
       screen.value = "Error";
